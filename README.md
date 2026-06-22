@@ -40,7 +40,7 @@ The backend is built with Python and FastAPI.
    ```bash
    python -m src.main
    ```
-   *(Alternatively, run: `uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload`)*
+   *(Alternatively, navigate to backend and run `uv run uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload` )*
 
 The backend API will be available at `http://localhost:8000`. You can interact with the Swagger API documentation at `http://localhost:8000/docs`.
 
